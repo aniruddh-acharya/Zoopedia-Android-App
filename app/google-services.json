@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "834617390286",
+    "firebase_url": "https://gamald-ff317.firebaseio.com",
+    "project_id": "gamald-ff317",
+    "storage_bucket": "gamald-ff317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834617390286:android:546a9458737cbeec96cc9f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834617390286-fb9170g4cc2qepf4ujc1imagrd35hjhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTldbNzE2KIZotCmig6dL7je0RpYpGUKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834617390286-fb9170g4cc2qepf4ujc1imagrd35hjhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

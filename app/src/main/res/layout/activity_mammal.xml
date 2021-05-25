@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A63B3B"
+    tools:context=".MammalActivity">
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="125dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Type"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Primates"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="162dp"
+        android:backgroundTint="#673AB7"
+        android:text="Primates"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Heading" />
+
+    <Button
+        android:id="@+id/Carnivora"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="162dp"
+        android:backgroundTint="#673AB7"
+        android:text="Carnivora"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Primates" />
+
+    <Button
+        android:id="@+id/Proboscideans"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="162dp"
+        android:backgroundTint="#673AB7"
+        android:text="Proboscideans"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Carnivora" />
+
+    <Button
+        android:id="@+id/Cetecea"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="162dp"
+        android:backgroundTint="#673AB7"
+        android:text="Cetecea"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Proboscideans" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

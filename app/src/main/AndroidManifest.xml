@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CeteceaActivity" />
+        <activity android:name=".ProboActivity" />
+        <activity android:name=".CarnivoraActivity" />
+        <activity android:name=".PrimateActivity" />
+        <activity android:name=".SalamanderActivity" />
+        <activity android:name=".FrogActivity" />
+        <activity android:name=".CaecilianActivity" />
+        <activity android:name=".CrocActivity" />
+        <activity android:name=".TurtleActivity" />
+        <activity android:name=".SnakeActivity" />
+        <activity android:name=".LizardActivity" />
+        <activity android:name=".CharadriActivity" />
+        <activity android:name=".FalconiformesActivity" />
+        <activity android:name=".PsittaciformesActivity" />
+        <activity android:name=".HagActivity" />
+        <activity android:name=".CartiActivity" />
+        <activity android:name=".BonyActivity" />
+        <activity android:name=".BirdActivity" />
+        <activity android:name=".MammalActivity" />
+        <activity android:name=".ReptileActivity" />
+        <activity android:name=".AmphibianActivity" />
+        <activity android:name=".FishesActivity" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/main">
+        </activity>
+    </application>
+
+</manifest>
